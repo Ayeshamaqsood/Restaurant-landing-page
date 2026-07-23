@@ -1,0 +1,50 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cormorant Garamond", sans-serif;
+  line-height: 1.6;
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+}
+header {
+  background-color: #000000;
+  padding: 20px 0px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  overflow: hidden;
+  text-decoration: none;
+  margin-left: auto;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  text-decoration: none;
+}
+nav button {
+  background-color: rgba(250, 205, 4, 0.952) ;
+  color: #000000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
